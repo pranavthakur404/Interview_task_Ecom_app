@@ -1,0 +1,128 @@
+.OfferBanner {
+  width: 100%;
+}
+
+.contentContainer {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  padding-block: 4%;
+}
+
+.image {
+  width: 30%;
+  height: 339px;
+  border: 7px solid #fff;
+  position: relative;
+  margin: 0 auto;
+}
+
+.img1 {
+  width: 157%;
+  position: absolute;
+  z-index: 1;
+  top: 46px;
+  left: -30px;
+}
+
+.img2 {
+  width: 87%;
+  z-index: 3;
+  position: absolute;
+  top: 67px;
+  left: 30px;
+}
+
+.content {
+  width: 60%;
+  padding-left: 10%;
+}
+
+.content p {
+  color: #eb3e32;
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 0.14px;
+  margin-bottom: 8px;
+}
+
+.content h2 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 0.14px;
+  margin-bottom: 10px;
+}
+
+.content .text {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 44px;
+  text-transform: uppercase;
+}
+
+.content button {
+  background-color: #eb3e32;
+  border: 2px solid #eb3e32;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  padding: 22px 62px 21px;
+}
+
+@media only screen and (max-width: 991px) {
+  .contentContainer {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .content {
+    width: 100%;
+    text-align: center;
+  }
+  .image {
+    width: 280px;
+    height: 300px;
+  }
+  .img1 {
+    width: 157%;
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+  }
+  .content p {
+    font-size: 24px;
+  }
+  .content h2 {
+    font-size: 40px;
+  }
+  .content .text {
+    font-size: 20px;
+    margin-bottom: 22px;
+  }
+  .content button {
+    padding: 12px 26px 13px;
+    font-size: 15px;
+  }
+  .content {
+    padding-left: 0px;
+  }
+  .contentContainer {
+    padding-block: 6%;
+  }
+  .content {
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 527px) {
+  .img1 {
+    width: 100%;
+    top: 65px;
+    left: 10px;
+  }
+}

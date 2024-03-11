@@ -1,0 +1,31 @@
+.nav > li {
+  position: relative;
+}
+
+.showIcon {
+  position: absolute;
+  color: #fff;
+  right: 18px;
+  top: 16px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.nav a {
+  display: block;
+  width: 100%;
+  background: none;
+  text-align: left;
+  padding: 14px 20px;
+  border: 0;
+  border-bottom: 1px solid #373737;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.nav li ul a {
+  padding-left: 40px;
+}

@@ -1,0 +1,95 @@
+.nav {
+  width: 100%;
+  background-color: #eb3e32;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-content: baseline;
+}
+
+.nav > ul {
+  display: flex;
+  list-style-type: none;
+  gap: 42px;
+  align-items: center;
+  position: relative;
+}
+
+.nav ul li {
+  position: relative;
+  padding-block: 15px;
+}
+
+.nav ul li:hover ul {
+  margin-top: 0;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: visible;
+}
+
+.nav ul li ul {
+  box-shadow: 0 1px 24px 0 rgba(0, 0, 0, 0.09);
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  color: #555;
+  width: 230px;
+  border: none;
+  border-bottom: none;
+  padding: 15px 0 15px;
+  position: absolute;
+  left: -15px;
+  top: 100%;
+  opacity: 0;
+  min-width: 230px;
+  pointer-events: none;
+  margin-top: 30px;
+  transition: all 0.3s ease-out;
+  visibility: hidden;
+  z-index: 9999;
+}
+
+.nav ul li ul li {
+  border-bottom: 1px solid rgba(173, 181, 189, 0.15);
+  padding: 0;
+  margin-bottom: 0;
+  color: #1d1d1d;
+  display: block;
+  font-size: 13px;
+  padding: 11px 25px 10px;
+  position: relative;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  display: block;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+}
+
+.nav ul li a.active {
+  color: #fffc;
+}
+
+.nav ul li a:hover {
+  color: #fffc;
+}
+
+.downArrow {
+  color: #fffc;
+  font-size: 19px;
+  position: absolute;
+  top: 16px;
+}
+
+@media only screen and (max-width: 924px) {
+  .nav {
+    display: none;
+  }
+}

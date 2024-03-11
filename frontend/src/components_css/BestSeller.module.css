@@ -1,0 +1,19 @@
+.bestSeller {
+  padding-bottom: 5%;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading h2 {
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+
+.heading p {
+  font-size: 16px;
+  color: #595959;
+  line-height: 1.56;
+}
