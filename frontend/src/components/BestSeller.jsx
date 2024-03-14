@@ -10,14 +10,63 @@ import "swiper/css/pagination";
 import Products from "./Products";
 
 const BestSeller = () => {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([
+    {
+      _id: 1,
+      name: "Product 1",
+      price: 2500,
+      discount: "20",
+      imageUrl:
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    },
+    {
+      _id: 1,
+      name: "Product 1",
+      price: 2500,
+      discount: "20",
+      imageUrl:
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    },
+    {
+      _id: 1,
+      name: "Product 1",
+      price: 2500,
+      discount: "20",
+      imageUrl:
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    },
+    {
+      _id: 1,
+      name: "Product 1",
+      price: 2500,
+      discount: "20",
+      imageUrl:
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    },
+    {
+      _id: 1,
+      name: "Product 1",
+      price: 2500,
+      discount: "20",
+      imageUrl:
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    },
+    {
+      _id: 1,
+      name: "Product 1",
+      price: 2500,
+      discount: "20",
+      imageUrl:
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    },
+  ]);
   const fetching = async () => {
     const res = await fetch(`${api_url}/getAll`);
     const resData = await res.json();
     setProducts(resData.data);
   };
   useEffect(() => {
-    fetching();
+    // fetching();
   });
   return (
     <Container>
