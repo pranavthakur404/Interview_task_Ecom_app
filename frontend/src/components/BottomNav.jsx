@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styles from "../components_css/BottomNav.module.css";
 import Container from "./Container";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
@@ -17,21 +17,28 @@ const BottomNav = () => {
             </ul>
           </li>
           <li>
-            <NavLink to="/">About</NavLink>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
             <NavLink to="/">Pages</NavLink>
             <MdOutlineKeyboardArrowDown className={styles.downArrow} />
             <ul>
               <li>Account</li>
-              <li>Login</li>
+              <li>
+                <NavLink to="/login">Login</NavLink>
+              </li>
               <li>Register</li>
-              <li>Login</li>
               <li>Page Not found </li>
+              <li>
+                <NavLink to="/compare">Compare</NavLink>
+              </li>
+              <li>
+                <NavLink to="/checkout">Checkout</NavLink>
+              </li>
             </ul>
           </li>
           <li>
-            <NavLink to="/">Shop</NavLink>
+            <NavLink to="/shop">Shop</NavLink>
             <MdOutlineKeyboardArrowDown className={styles.downArrow} />
           </li>
           <li>

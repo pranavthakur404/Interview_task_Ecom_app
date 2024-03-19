@@ -1,0 +1,39 @@
+.wishList {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tableWrapper {
+  width: auto;
+  overflow-x: auto;
+  margin-bottom: 3%;
+}
+
+.wishList main {
+  width: 100%;
+  padding-block: 5%;
+}
+
+.wishList table {
+  width: 100%;
+}
+
+table,
+td,
+th,
+tr {
+  border-collapse: collapse;
+}
+
+.wishList thead {
+  background-color: #f7f7f7;
+}
+
+.wishList th {
+  padding: 15px;
+}
+
+table td {
+  border-bottom: 1px solid silver;
+  padding: 20px;
+}

@@ -1,0 +1,31 @@
+.coupon {
+  width: 100%;
+}
+
+.coupon h4 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.coupon p {
+  font-size: 13px;
+  color: #8a8a8a;
+}
+
+.coupon input {
+  outline: none;
+}
+
+.coupon button {
+  color: #232324;
+  border-width: 0 0 2px;
+  border-style: solid;
+  border-color: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: none;
+  padding: 5px 0;
+  float: right;
+  margin-top: 10px;
+}

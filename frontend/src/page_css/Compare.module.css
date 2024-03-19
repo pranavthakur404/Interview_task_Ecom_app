@@ -1,0 +1,108 @@
+.compare main {
+  width: 100%;
+  padding-block: 7%;
+}
+
+.compareTable {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* momentum scrolling, iOS Safari only*/
+}
+
+.compareTable table {
+  width: 100%;
+}
+
+.compareTable table tr,
+td,
+th {
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid #e7e7e7;
+}
+
+.compareTable table th {
+  min-width: 200px;
+  width: 200px;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  vertical-align: middle;
+  border-color: #e7e7e7;
+  font-weight: bold;
+  border-left: 0;
+  padding-left: 20px;
+  text-align: left;
+  padding-right: 20px;
+  word-wrap: nowrap;
+}
+
+.removeBtn {
+  border: none;
+  padding: 0px;
+  background: transparent;
+  color: #333131;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.imgContainer img {
+  width: 80px;
+}
+
+.productTitle {
+  color: #333131;
+}
+
+.addTocartBtn {
+  background-color: #343538;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 20px;
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border: none;
+  margin-top: 20px;
+}
+
+.price {
+  color: #343538;
+  font-size: 14px;
+}
+
+.description td {
+  color: #333131;
+  font-size: 13px;
+  line-height: 1.714286;
+  min-width: 200px;
+  padding: 5px;
+  border-color: #e7e7e7;
+  text-align: center;
+  padding: 20px 10px;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  height: 80px;
+}
+
+.stockIcon .inIcon,
+.outIcon {
+  background-color: #35d56a;
+  font-size: 0.875em;
+  display: inline-block;
+  color: #fff;
+  border-radius: 15px;
+  padding: 2px 15px;
+  white-space: nowrap;
+}
+
+.stockIcon .outIcon {
+  background-color: #eb3e32;
+}

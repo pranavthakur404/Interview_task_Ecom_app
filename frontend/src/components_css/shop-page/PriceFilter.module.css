@@ -1,0 +1,35 @@
+.priceFilter {
+  background-color: #fafafa;
+  border: 2px solid #e1e1e1;
+  border-radius: 13px;
+  margin-bottom: 30px;
+  padding: 41px 17px 36px;
+}
+
+.priceFilter h4 {
+  color: #535353;
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 18px;
+  text-transform: capitalize;
+  z-index: 1;
+  font-weight: 600;
+}
+
+.priceFilter form {
+  position: relative;
+}
+
+.priceFilter form input {
+  margin-top: 20px;
+}
+
+.priceFilter form span {
+  color: #8a8a8a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33px;
+  display: block;
+  position: absolute;
+}

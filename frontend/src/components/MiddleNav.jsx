@@ -7,6 +7,7 @@ import { PiHeartLight } from "react-icons/pi";
 import { PiShoppingBagThin } from "react-icons/pi";
 import { IoIosMenu } from "react-icons/io";
 import MobileMenu from "./MobileMenu";
+import { NavLink } from "react-router-dom";
 
 const MiddleNav = () => {
   const [showNav, setShowNav] = useState(false);
@@ -44,10 +45,14 @@ const MiddleNav = () => {
               <CiSearch />
             </span>
             <span>
-              <PiHeartLight className={styles.icon} />
+              <NavLink to="/wishList">
+                <PiHeartLight className={styles.icon} />
+              </NavLink>
             </span>
             <span>
-              <PiShoppingBagThin className={styles.icon} />
+              <NavLink to="/cart">
+                <PiShoppingBagThin className={styles.icon} />
+              </NavLink>
             </span>
             <span className={styles.hamburger} onClick={handleClick}>
               <IoIosMenu className={styles.icon} />

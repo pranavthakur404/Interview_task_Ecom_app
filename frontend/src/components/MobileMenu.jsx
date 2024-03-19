@@ -27,7 +27,7 @@ export default function MobileMenu({
   };
 
   const searchBarvisibility = {
-    top: showSearch ? "0px" : "-200px",
+    top: showSearch ? "0px" : "-250px",
   };
 
   useEffect(() => {

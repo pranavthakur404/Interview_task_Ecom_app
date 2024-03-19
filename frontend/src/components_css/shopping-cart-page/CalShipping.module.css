@@ -1,0 +1,59 @@
+.box {
+  width: 100%;
+}
+
+.box h4 {
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.box p {
+  font-size: 13px;
+  color: #8a8a8a;
+}
+
+.box form input,
+.box form select {
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid #e8e8e8;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #333131;
+  font-size: 12px;
+  height: 50px;
+  padding: 0 20px;
+  text-transform: capitalize;
+  margin-block: 7px;
+}
+
+.box form button {
+  color: #232324;
+  border-width: 0 0 2px;
+  border-style: solid;
+  border-color: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: none;
+  padding: 5px 0;
+  float: right;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .checkoutBtn {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px 15px 8px;
+    background-color: #232324;
+    border-color: #232324;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    border: none;
+    margin-top: 20px;
+    white-space: nowrap;
+  }
+}

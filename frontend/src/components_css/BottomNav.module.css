@@ -48,6 +48,14 @@
   z-index: 9999;
 }
 
+.nav ul li ul li a {
+  color: #1d1d1d;
+}
+
+.nav ul li ul li a:hover {
+  color: #1d1d1d;
+}
+
 .nav ul li ul li {
   border-bottom: 1px solid rgba(173, 181, 189, 0.15);
   padding: 0;

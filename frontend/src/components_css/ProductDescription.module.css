@@ -1,0 +1,243 @@
+.description {
+  width: 100%;
+  padding-inline: 10px;
+}
+
+.about {
+  border-top: 1px solid silver;
+  padding-top: 7%;
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.name {
+  font-size: 36px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.price {
+  color: #000;
+  font-size: 36px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.rating {
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+.discount {
+  color: #919191;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.color {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 35px;
+}
+
+.color p {
+  color: #1d1d1d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.list i {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  display: inline-block;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.list .border {
+  padding: 1px;
+  border: 2px solid grey;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-inline: 5px;
+  cursor: pointer;
+}
+
+.list .border:hover {
+  border: 2px solid red;
+}
+.list .border.active {
+  border: 2px solid red;
+}
+
+.size {
+  color: #1d1d1d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 0;
+  display: flex;
+  gap: 20px;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.size .border {
+  padding: 1px;
+  border: 2px solid grey;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  margin-inline: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: border-color;
+}
+
+.size .text {
+  background-color: #e1e1e1;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #525252;
+  cursor: pointer;
+  font-size: 16px;
+  height: 30px;
+  text-align: center;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.size .border:hover {
+  border-color: red;
+}
+
+.size .border.active {
+  border-color: red;
+}
+
+.quantity_cartBtn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.quantity_cartBtn .box {
+  border: 1px solid silver;
+  display: block;
+  border-bottom: none;
+}
+
+.quantity_cartBtn .num {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 7px;
+}
+
+.quantity_cartBtn .decrement,
+.quantity_cartBtn .increment {
+  border: 1px solid silver;
+  padding: 3px 10px;
+  width: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.quantity_cartBtn .cartBtn {
+  margin-left: 20px;
+  padding: 22px 55px 21px;
+  background-color: #eb3e32;
+  border: 2px solid #eb3e32;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  padding: 22px 62px 21px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.wishlist {
+  display: flex;
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.wishBtn,
+.compareBtn {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #424242;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  border: none;
+  background: transparent;
+}
+
+.socialBox {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid silver;
+  align-items: center;
+  margin-top: 36px;
+  padding-top: 29px;
+}
+
+.productCode {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 1;
+  color: #eb3e32;
+}
+.productCode span {
+  color: #000;
+}
+
+.socialIcons {
+  color: #eb3e32;
+  display: flex;
+  align-items: center;
+}
+
+.socialIcons a {
+  color: #919191;
+  font-size: 20px;
+  display: inline-block;
+  margin-inline: 5px;
+}
+
+@media (max-width: 399px) {
+  .quantity_cartBtn .cartBtn {
+    padding: 11px 15px;
+    font-size: 13px;
+  }
+  .quantity_cartBtn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 35px;
+    justify-content: space-between;
+  }
+}

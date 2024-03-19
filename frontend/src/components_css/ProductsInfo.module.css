@@ -1,0 +1,33 @@
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-block: 5%;
+}
+.left {
+  width: 50%;
+  height: fit-content;
+  overflow-x: hidden;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  width: 50%;
+  padding-inline: 1%;
+}
+
+@media (max-width: 991px) {
+  .info {
+    flex-direction: column;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    margin-top: 5%;
+  }
+}

@@ -1,0 +1,27 @@
+.banner {
+  padding: 10% 7%;
+}
+
+.content {
+  text-align: center;
+  color: #fff;
+}
+
+.content h2 {
+  font-size: 48px;
+  margin: 0 0 14px 0;
+  font-weight: 400;
+}
+
+.content p {
+  font-size: 24px;
+}
+
+@media (max-width: 480px) {
+  .content h2 {
+    font-size: 33px;
+  }
+  .content p {
+    font-size: 18px;
+  }
+}

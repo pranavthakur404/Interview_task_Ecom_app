@@ -1,0 +1,43 @@
+.login p {
+  color: #8a8a8a;
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+.login form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login form div {
+  width: 49%;
+}
+
+.login form label {
+  color: #333131;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.login form input {
+  outline: none;
+  margin-top: 5px;
+}
+
+.login form input:focus {
+  border: 1px solid #000;
+}
+
+.loginBtn {
+  background-color: #efefef;
+  border: 1px solid #eee;
+  color: #333131;
+  padding: 10px 30px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.resetPassBtn {
+  border: none;
+  background: none;
+}

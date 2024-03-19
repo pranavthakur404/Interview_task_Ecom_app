@@ -1,0 +1,27 @@
+.main {
+  width: 100%;
+  padding-block: 3%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+@media (max-width: 767px) {
+  main {
+    flex-wrap: wrap;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+}

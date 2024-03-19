@@ -1,0 +1,13 @@
+.tabs {
+  padding-block: 3%;
+  margin-bottom: 5%;
+}
+
+ul.react-tabs__tab-list {
+  text-align: center;
+}
+
+.tabs .react-tabs__tab-panel--selected {
+  border: 1px solid silver;
+  padding: 15px;
+}

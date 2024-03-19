@@ -1,0 +1,51 @@
+form {
+  width: 100%;
+  margin-block: 2%;
+}
+
+form div {
+  margin-block: 15px;
+}
+
+.rating {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.rating svg {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0;
+}
+
+form label {
+  cursor: pointer;
+  color: #626262;
+  font-size: 13px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+form input {
+  width: 100%;
+  box-shadow: none;
+  background-clip: initial;
+  color: #434343;
+  font-weight: 400;
+  font-size: 14px;
+  height: 44px;
+  padding: 8px 10px;
+  border: 1px solid #e5e5e5;
+}
+
+form textarea {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  height: 180px;
+}
